@@ -64,7 +64,9 @@ namespace MeltingSnowman
 
         private static string InputWord()
         {
-            string[] bannedWords = new string[] {"FUCK", "BITCH", "CUNT", "TWAT", "ASSHOLE", "PUSSY"};
+            /* If truly public app I would add in real offensive words, but
+             * as this is for personal use I am keeping the language clean. */
+            string[] bannedWords = new string[] {"TEST1", "TEST2", "TEST3"};
             bool isValid = false;
             string word = "    ";
 
